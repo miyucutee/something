@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 
 export type Options = {
   step: number;
@@ -31,10 +31,26 @@ type Optionss = {
  * const [value, setValue, sayHello] = useHello('Hello', { greeting: 'Hello' });
  * 
  */
-const useHello = <T>(initialValue: T, options: Optionss) => {
+export const useHello = <T>(initialValue: T, options: Optionss) => {
 	const [value, setValue] = useState(initialValue);
 	const sayHello = () => console.log(options.greeting);
 	return [value, setValue, sayHello] as const;
 };
 
-export default useHello;
+
+/**
+ * @name `useToggle`
+ * @description A hook that returns a boolean value and a function to toggle it. Useful for toggling a boolean value in a component. 
+ * @param initialValue The initial value of the boolean.
+ * @returns A tuple containing the boolean value and a function to toggle it.
+ * @example const [value, toggle] = useToggle(false);
+ */
+export const useToggle = (initialValue: boolean) => {
+	const [value, setValue] = useState(initialValue);
+	const toggle = useCallback(() => setValue((value) => !value),[]);
+	return [value, toggle] as const;
+};
+
+
+
+
