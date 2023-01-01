@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/miyucutee/something/compare/v0.1.2...v0.1.3) (2023-01-01)
+
+
+### Features
+
+* improve settings ([ee3d891](https://github.com/miyucutee/something/commit/ee3d8911a5ecf2785fd8b218d131ef8aeefe001b))
+
+
+### Bug Fixes
+
+* bug all ([85d4bda](https://github.com/miyucutee/something/commit/85d4bdadd9b7f0e93772cbe2ce840cfe77c95939))
+
 ### [0.1.2](https://github.com/miyucutee/something/compare/v0.1.1...v0.1.2) (2023-01-01)
 
 
