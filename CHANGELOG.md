@@ -7,11 +7,11 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* add new hooks useToggle ([0677261](https://github.com/miyucutee/something/commit/0677261e7e2372f1727c060aee974559502de267))
+* add new hooks useToggle ([`0677261`](https://github.com/miyucutee/something/commit/0677261e7e2372f1727c060aee974559502de267))
 
 ### 0.1.1 (2023-01-01)
 
 
 ### Features
 
-* initial release ([e6d6f50](https://github.com/miyucutee/something/commit/e6d6f5076b11d0b5447ae262b19b5233e8f443d3))
+* initial release ([`e6d6f50`](https://github.com/miyucutee/something/commit/e6d6f5076b11d0b5447ae262b19b5233e8f443d3))
