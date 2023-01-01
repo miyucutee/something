@@ -9,7 +9,8 @@
     {"type": "perf", "hidden": true},
     {"type": "test", "hidden": true}
   ],
-  "commitUrlFormat": "https://github.com/miyucutee/something/commit/{{hash}}",
-  "compareUrlFormat": "https://github.com/miyucutee/something/compare/{{previousTag}}...{{currentTag}}"
+  "commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}",
+  "compareUrlFormat": "{{host}}/{{owner}}/{{repository}}/compare/{{previousTag}}...{{currentTag}}",
+  "releaseCommitMessageFormat": "chore(release): {{currentTag}}"
 }
 
