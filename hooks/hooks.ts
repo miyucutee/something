@@ -25,6 +25,7 @@ export const useCounter = (initialValue: number, options?: Options) => {
 type Optionss = {
 	greeting: string;
 	info: string
+	hehe: string
 };
 
 /**
