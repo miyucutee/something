@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/miyucutee/something/compare/v0.1.4...v0.1.5) (2023-01-02)
+
+
+### Bug Fixes
+
+* `hooks` file ([ec24452](https://github.com/miyucutee/something/commit/ec24452ea28dd15e33b126a9ff9d3974fa0ba0e3))
+* type hooks \u{} ([57c6c09](https://github.com/miyucutee/something/commit/57c6c094bebcd0bafc8fd21e8f67655dc200dfca))
+
 ### [0.1.4](https://github.com/miyucutee/something/compare/v0.1.3...v0.1.4) (2023-01-02)
 
 
