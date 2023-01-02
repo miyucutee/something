@@ -1,6 +1,6 @@
 {
   "name": "something",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "somthing",
   "main": "index.ts",
   "scripts": {
