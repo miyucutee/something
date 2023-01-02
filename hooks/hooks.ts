@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect } from 'react';
 
 export type Options = {
-  step: number;
+  step: number 
 };
 
 /**
@@ -10,13 +10,15 @@ export type Options = {
  * @param options - Options to configure the counter
  * @description - This hook is used to increment a counter by a given step.
  */
-export const useCounter = (initialValue: number, options: Options) => {
+export const useCounter = (initialValue: number, options?: Options) => {
   const [count, setCount] = useState(initialValue);
-  const { step } = options;
 
-  const increment = useCallback(() => setCount(count + step | 1), [count, step]);
+	const steps = Number(options?.step || 1)
 
-  return { count, increment };
+  const increment = useCallback(() => setCount(count +  steps), [count,steps]);
+	const decrement = useCallback(() => setCount(count -  steps), [count,steps]);
+
+  return { count, increment, decrement };
 };
 
 
