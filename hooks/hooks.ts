@@ -35,7 +35,7 @@ type Optionss = {
  * const [value, setValue, sayHello] = useHello('Hello', { greeting: 'Hello' });
  * 
  */
-export const useHello = <T>(initialValue: T, options?: Optionss) => {
+export const useHello = <T>(initialValue: T, options: Partial<Optionss>) => {
 	const [value, setValue] = useState(initialValue);
 	const sayHello = () => console.log(options);
 	return [value, setValue, sayHello] as const;
