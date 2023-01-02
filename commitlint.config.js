@@ -1,6 +1,6 @@
 module.exports = {
-	extends: ['@commitlint/config-conventional'],
-  parserPreset: 'conventional-changelog-conventionalcommits',
+	extends: ['@commitlint/config-conventional', 'emoji-log'],
+	parserPreset: 'conventional-changelog-conventionalcommits',
 	prompt: {
 		settings: {},
 		messages: {
