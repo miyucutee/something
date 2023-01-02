@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/miyucutee/something/compare/v0.1.7...v0.2.0) (2023-01-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* **versionrc :** versionnnn
+
+### Bug Fixes
+
+* **versionrc :** bug in version config ([a368086](https://github.com/miyucutee/something/commit/a368086baf1f095a2bcd0ca4a567d161c380fe9e))
+
 ### [0.1.7](https://github.com/miyucutee/something/compare/v0.1.6...v0.1.7) (2023-01-02)
 
 
