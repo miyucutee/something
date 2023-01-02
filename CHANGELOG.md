@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.6](https://github.com/miyucutee/something/compare/v0.3.5...v0.3.6) (2023-01-02)
+
+
+### Bug Fixes
+
+* tried fix emoji ([bd7b5e3](https://github.com/miyucutee/something/commit/bd7b5e312b309a59f8c8946290b17da07d872917))
+
 ### [0.3.5](https://github.com/miyucutee/something/compare/v0.3.4...v0.3.5) (2023-01-02)
 
 
