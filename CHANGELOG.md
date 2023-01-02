@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.4](https://github.com/miyucutee/something/compare/v0.3.3...v0.3.4) (2023-01-02)
+
+
+### Bug Fixes
+
+* bugs `commitlint` in (`c10043a`) ([aff3876](https://github.com/miyucutee/something/commit/aff387683add38d26cc76b350302030cf24c3513))
+
 ### [0.3.3](https://github.com/miyucutee/something/compare/v0.3.2...v0.3.3) (2023-01-02)
 
 
