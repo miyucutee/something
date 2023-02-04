@@ -11,5 +11,5 @@
 	],
 	"commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}",
 	"compareUrlFormat": "{{host}}/{{owner}}/{{repository}}/compare/{{previousTag}}...{{currentTag}}",
-	"releaseCommitMessageFormat": "release: `{{currentTag}}`"
+	"releaseCommitMessageFormat": "release: {{currentTag}}"
 }
